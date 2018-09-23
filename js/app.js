@@ -12,7 +12,7 @@ function loadNames(e) {
     const amount = document.getElementById('quantity').value;
 
     // Build the URL
-    let url = 'http://uinames.com/api/?';
+    let url = 'https://uinames.com/api/?';
     // Read the origin and append to the url
     if (origin !== '') {
         url += `region=${origin}&`;
@@ -55,7 +55,6 @@ function loadNames(e) {
             document.querySelector('#result').innerHTML = html;
         }
     }
-    //  xhr.onerror=function(){
 
 
     //  }
